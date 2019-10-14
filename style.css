@@ -1,20 +1,48 @@
+body{
+    background-color: #F5F6F7;
+}
+
 .emailNotification{
+    margin-top: 50px;
     margin: 30px auto;
     width: 50%;
 }
 
+.emailNotification-HeaderText{
+    margin: 20px;
+}
+
+.emailNotification-Text{
+    margin: 20px;
+}
+
+.emailNotification-button{
+    background-color: rgb(30, 112, 161);
+    color: white;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.05);
+}
+
 .emailNotification-incorrect{
+    background-color: white;
     border: Red;
     border-style: solid;
     border-right-width: 50px;
-    box-shadow: 5px 10px Black;
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
 }
 
 .emailNotification-correct{
+    background-color: white;
     border: Green;
     border-style: solid;
     border-right-width: 50px;
-    box-shadow: 5px 10px Black;
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
 }
+

@@ -1,0 +1,20 @@
+.emailNotification{
+    margin: 30px auto;
+    width: 50%;
+}
+
+.emailNotification-incorrect{
+    border: Red;
+    border-style: solid;
+    border-right-width: 50px;
+    box-shadow: 5px 10px Black;
+    border-radius: 5px;
+}
+
+.emailNotification-correct{
+    border: Green;
+    border-style: solid;
+    border-right-width: 50px;
+    box-shadow: 5px 10px Black;
+    border-radius: 5px;
+}

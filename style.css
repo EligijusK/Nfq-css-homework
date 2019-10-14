@@ -3,9 +3,14 @@ body{
 }
 
 .emailNotification{
-    margin-top: 50px;
     margin: 30px auto;
+    margin-top: 180px;
     width: 50%;
+}
+
+.emailNotification-row{
+    margin: 30px auto;
+    margin-top: 60px;
 }
 
 .emailNotification-HeaderText{
